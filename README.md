@@ -1,1 +1,2 @@
-# Mahabharatam
+# ValmikiRamayanam
+Valmiki Ramayanam in Sanskrit
