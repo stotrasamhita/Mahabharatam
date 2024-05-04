@@ -1,8 +1,13 @@
-% !TeX program = XeLaTeX
-% !TeX root = gitabook.tex
+\documentclass[oneside,12pt]{book}
 \usepackage{shloka}
-\usepackage{wallpaper}
+\usepackage{etoolbox}
+\usepackage{fontawesome}
+\newbool{kindle}
+\setbool{kindle}{true}
 
+%%% PAGE SIZE and MARGINS %%%
+\usepackage[paperwidth=144mm,paperheight=192mm,left=4mm,right=4mm,top=9mm,bottom=10mm]{geometry}
+\addtolength{\headsep}{-4mm}
 \setmainfont[Script=Devanagari]{Sanskrit 2003}
 \newfontscript{Devanagari}{deva,dev2}
 
@@ -10,10 +15,10 @@
 \usepackage{fancyhdr}
 \pagestyle{fancyplain}
 \setlength{\headheight}{28pt}
-\lhead[\fancyplain{\rightmark}{\pagenumfont\large\thepage}]
-   {\fancyplain{\rightmark}{\leftmark}}
-\rhead[\fancyplain{\rightmark}{\leftmark}]
-   {\fancyplain{\rightmark}{\pagenumfont\large\thepage}}
+\lhead[\fancyplain{}{\pagenumfont\large\thepage}]
+   {\fancyplain{}{\leftmark}}
+\rhead[\fancyplain{}{\leftmark}]
+   {\fancyplain{}{\pagenumfont\large\thepage}}
 \cfoot{}
 
 \fancypagestyle{fancyplain}{ %
@@ -35,21 +40,18 @@
 \renewcommand\chapter{\resetShloka\@startsection {chapter}{1}{\z@}%
 {10pt}
 {2pt}
-{\normalfont\LARGE\bfseries}}
+{\fontspec[FakeBold=1.0,FakeStretch=1.0,Script=Devanagari,Mapping=tex-text]{Adobe Devanagari}\LARGE\bfseries}}
 \makeatother
 
 \setcounter{secnumdepth}{-1}
 %for weird reasons this does not bookmark the section start, but the start of text in the section!!!
 %\renewcommand\thesection{}
 \renewcommand{\sectionmark}[1]{%
-\markboth{\large #1}{\rightmark}
-}
+\markboth{\large #1}{}}
 \renewcommand{\subsectionmark}[1]{%
-\markboth{\large #1}{\rightmark}
-}
+\markboth{\large #1}{}}
 \renewcommand{\chaptermark}[1]{%
-\markboth{\large #1}{\rightmark}
-}
+\markboth{\large #1}{}}
 
 \addtolength{\parskip}{4pt}
 %\addtolength{\headsep}{10pt}
@@ -57,11 +59,11 @@
 \setlength{\columnsep}{30pt}
 
 %%% HYPERLINKS %%%
-\usepackage[a5paper,bookmarks=true,bookmarksopen=true,xetex,colorlinks=true,
-linkcolor=black,					% colour of internal links
-citecolor=cyan,					% colour of links to bibliography
-filecolor=magenta,			% colour of file links
-urlcolor=black					% colour of external links
+\usepackage[bookmarks=true,bookmarksopen=true,xetex,colorlinks=true,
+linkcolor=black,            % colour of internal links
+citecolor=cyan,             % colour of links to bibliography
+filecolor=magenta,          % colour of file links
+urlcolor=blue               % colour of external links
 ]{hyperref}
 
 %%% MISCELLANEOUS %%%
@@ -69,3 +71,10 @@ urlcolor=black					% colour of external links
 \vbadness=10000
 \hfuzz=6pt
 %\listfiles
+\begin{document}
+\Large\setmainfont[Script=Devanagari,Mapping=tex-text]{Siddhanta}
+\begin{center}
+\input{parvas/04-virāṭaparva.tex}
+\end{center}
+\end{document}
+
