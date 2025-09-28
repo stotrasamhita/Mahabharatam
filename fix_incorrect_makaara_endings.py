@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 import re
 from pathlib import Path
+import sys
 import logging
 
 # Define Sanskrit vowels
@@ -50,5 +51,6 @@ def process_file(path):
         print(f"Fixed: {path}")
 
 # Walk through all .tex files and process
-for tex_file in Path('.').rglob('*.tex'):
+# for tex_file in Path('.').rglob('*.tex'):
+for tex_file in Path(sys.argv[1]).rglob('*.tex'):
     process_file(tex_file)
