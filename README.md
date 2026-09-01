@@ -9,10 +9,10 @@ typeset pages.
 
 | Path | What it is |
 |---|---|
-| `Mahabharatam-Kumbhaghonam.tex` / `.pdf` | The complete Mahābhārata, all 18 parvas, typeset as one book (A3, two-column). |
-| `Mahabharatam-Kumbhaghonam-kindle.tex` / `.pdf` | The same complete text, reflowed to a Kindle-friendly page size (one column). |
-| `VirataParva.tex` / `.pdf` | Virāṭa Parva alone, as a standalone booklet. |
-| `PativrataMahatmyaParva.tex` / `.pdf` | The Pativratā-māhātmya episode (from within Āraṇyaka/Vana Parva) as a standalone booklet. |
+| `Mahabharatam-Kumbhaghonam.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam.pdf) | The complete Mahābhārata, all 18 parvas, typeset as one book (A3, two-column). |
+| `Mahabharatam-Kumbhaghonam-kindle.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam-kindle.pdf) | The same complete text, reflowed to a Kindle-friendly page size (one column). |
+| `VirataParva.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/VirataParva.pdf) | Virāṭa Parva alone, as a standalone booklet. |
+| `PativrataMahatmyaParva.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/PativrataMahatmyaParva.pdf) | The Pativratā-māhātmya episode (from within Āraṇyaka/Vana Parva) as a standalone booklet. |
 | `parvas/` | The 18 parvas as individual `.tex` source files — see [`parvas/README.md`](parvas/README.md). |
 | `SARIT-corpus/` | The source TEI-XML text the `.tex` files are generated from — see [`SARIT-corpus/README.md`](SARIT-corpus/README.md). |
 | `extracted_data/` | Per-parva JSON, an intermediate step between the source XML and the `.tex` files — see [`extracted_data/README.md`](extracted_data/README.md). |
@@ -98,6 +98,21 @@ This repository is maintained alongside other Sanskrit-text projects under the
 [ValmikiRamayanam](https://github.com/stotrasamhita/ValmikiRamayanam) and
 [gita](https://github.com/stotrasamhita/gita). See [stotrasamhita.net](https://stotrasamhita.net)
 for more.
+
+## 📑 Index
+
+**Jump to:** [What's here](#whats-here) · [The text](#the-text) · [Building the PDFs](#building-the-pdfs) · [Data pipeline](#data-pipeline) · [License](#license) · [Related projects](#related-projects)
+
+**All release PDFs:**
+
+| Edition | PDF |
+|---|---|
+| Complete Mahābhārata (A3, two-column) | [📄 Mahabharatam-Kumbhaghonam.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam.pdf) |
+| Complete Mahābhārata (Kindle) | [📄 Mahabharatam-Kumbhaghonam-kindle.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam-kindle.pdf) |
+| Virāṭa Parva (standalone) | [📄 VirataParva.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/VirataParva.pdf) |
+| Pativratā-māhātmya episode (standalone) | [📄 PativrataMahatmyaParva.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/PativrataMahatmyaParva.pdf) |
+
+**Read it online, in multiple scripts:** [stotrasamhita.github.io/mahabharatam](https://stotrasamhita.github.io/mahabharatam/) — the web edition renders the text with a live Devanāgarī/Tamil/Telugu/Kannada/Malayalam/IAST script switcher. Currently a pilot covering just Virāṭa Parva; the rest of the corpus will be added as it's proofread.
 
 ---
 
