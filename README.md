@@ -9,10 +9,10 @@ typeset pages.
 
 | Path | What it is |
 |---|---|
-| `Mahabharatam-Kumbhaghonam.tex` / [`.pdf`](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam.pdf) | The complete Mahābhārata, all 18 parvas, typeset as one book (A3, two-column). |
-| `Mahabharatam-Kumbhaghonam-kindle.tex` / [`.pdf`](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam-kindle.pdf) | The same complete text, reflowed to a Kindle-friendly page size (one column). |
-| `VirataParva.tex` / [`.pdf`](https://github.com/stotrasamhita/Mahabharatam/blob/main/VirataParva.pdf) | Virāṭa Parva alone, as a standalone booklet. |
-| `PativrataMahatmyaParva.tex` / [`.pdf`](https://github.com/stotrasamhita/Mahabharatam/blob/main/PativrataMahatmyaParva.pdf) | The Pativratā-māhātmya episode (from within Āraṇyaka/Vana Parva) as a standalone booklet. |
+| `Mahabharatam-Kumbhaghonam.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam.pdf) | The complete Mahābhārata, all 18 parvas, typeset as one book (A3, two-column). |
+| `Mahabharatam-Kumbhaghonam-kindle.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam-kindle.pdf) | The same complete text, reflowed to a Kindle-friendly page size (one column). |
+| `VirataParva.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/VirataParva.pdf) | Virāṭa Parva alone, as a standalone booklet. |
+| `PativrataMahatmyaParva.tex` / [📄](https://github.com/stotrasamhita/Mahabharatam/blob/main/PativrataMahatmyaParva.pdf) | The Pativratā-māhātmya episode (from within Āraṇyaka/Vana Parva) as a standalone booklet. |
 | `parvas/` | The 18 parvas as individual `.tex` source files — see [`parvas/README.md`](parvas/README.md). |
 | `SARIT-corpus/` | The source TEI-XML text the `.tex` files are generated from — see [`SARIT-corpus/README.md`](SARIT-corpus/README.md). |
 | `extracted_data/` | Per-parva JSON, an intermediate step between the source XML and the `.tex` files — see [`extracted_data/README.md`](extracted_data/README.md). |
