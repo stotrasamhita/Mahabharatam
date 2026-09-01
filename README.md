@@ -98,3 +98,7 @@ This repository is maintained alongside other Sanskrit-text projects under the
 [ValmikiRamayanam](https://github.com/stotrasamhita/ValmikiRamayanam) and
 [gita](https://github.com/stotrasamhita/gita). See [stotrasamhita.net](https://stotrasamhita.net)
 for more.
+
+---
+
+*The README.md files on this repo were generated and beautified with Claude.*

@@ -41,3 +41,7 @@ typeset text; edits meant to persist should generally go back through the pipeli
 
 `PativrataMahatmyaParva.tex` at the repo root typesets a single episode from within Āraṇyaka
 Parva rather than an entire numbered parva, so it doesn't have its own file in this directory.
+
+---
+
+*The README.md files on this repo were generated and beautified with Claude.*

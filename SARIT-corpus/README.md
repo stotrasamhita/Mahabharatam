@@ -36,3 +36,7 @@ parses it into the smaller, per-parva JSON files in [`../extracted_data/`](../ex
 which is the practical starting point for further processing. See the root
 [README's data-pipeline section](../README.md#data-pipeline) for the full flow from this file
 to the typeset `.tex` sources in [`../parvas/`](../parvas/README.md).
+
+---
+
+*The README.md files on this repo were generated and beautified with Claude.*

@@ -29,3 +29,7 @@ chapter (adhyāya), keyed by that chapter's `xml:id`. Each chapter entry holds, 
 
 To regenerate this directory from scratch, run `python3 extract_xml.py` from the repo root
 (requires `beautifulsoup4`, `lxml`, and `pandas`).
+
+---
+
+*The README.md files on this repo were generated and beautified with Claude.*
