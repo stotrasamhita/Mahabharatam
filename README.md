@@ -99,6 +99,21 @@ This repository is maintained alongside other Sanskrit-text projects under the
 [gita](https://github.com/stotrasamhita/gita). See [stotrasamhita.net](https://stotrasamhita.net)
 for more.
 
+## 📑 Index
+
+**Jump to:** [What's here](#whats-here) · [The text](#the-text) · [Building the PDFs](#building-the-pdfs) · [Data pipeline](#data-pipeline) · [License](#license) · [Related projects](#related-projects)
+
+**All release PDFs:**
+
+| Edition | PDF |
+|---|---|
+| Complete Mahābhārata (A3, two-column) | [📄 Mahabharatam-Kumbhaghonam.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam.pdf) |
+| Complete Mahābhārata (Kindle) | [📄 Mahabharatam-Kumbhaghonam-kindle.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/Mahabharatam-Kumbhaghonam-kindle.pdf) |
+| Virāṭa Parva (standalone) | [📄 VirataParva.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/VirataParva.pdf) |
+| Pativratā-māhātmya episode (standalone) | [📄 PativrataMahatmyaParva.pdf](https://github.com/stotrasamhita/Mahabharatam/blob/main/PativrataMahatmyaParva.pdf) |
+
+**Read it online, in multiple scripts:** [stotrasamhita.github.io/mahabharatam](https://stotrasamhita.github.io/mahabharatam/) — the web edition renders the text with a live Devanāgarī/Tamil/Telugu/Kannada/Malayalam/IAST script switcher. Currently a pilot covering just Virāṭa Parva; the rest of the corpus will be added as it's proofread.
+
 ---
 
 *The README.md files on this repo were generated and beautified with Claude.*
